@@ -17,8 +17,8 @@ public class ApiControllers {
     public String getPage(){
         return "API to see which trainer possesses which pokémons.<br><br>"+
                 "To get a list of all the trainers, go to /trainers<br>"+
-                "To add a new trainer, use /savetrainer while giving the data for the trainer in the requestbody<br>"+
-                "To update a trainer, use /update/{id} while giving the data for the trainer in the requestbody<br>"+
+                "To add a new trainer, use /savetrainer while giving the data for the trainer in the requestbody (firstname String, lastname String, age int, pokemons List)<br>"+
+                "To update a trainer, use /update/{id} while giving the data for the trainer in the requestbody (firstname String, lastname String, age int, pokemons List)<br>"+
                 "To delete a trainer, use /delete/{id}<br>";
     }
 
